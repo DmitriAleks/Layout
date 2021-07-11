@@ -4,6 +4,7 @@ import Header from './header/Headers'
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Works from "./works/Works";
+import FrilansOption from "./frilansOption/FrilansOption";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works />
+            <FrilansOption/>
         </div>
     );
 }
