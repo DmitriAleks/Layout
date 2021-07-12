@@ -5,6 +5,7 @@ import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Works from "./works/Works";
 import FrilansOption from "./frilansOption/FrilansOption";
+import Contacts from "./contacts/Contacts";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Skills/>
             <Works />
             <FrilansOption/>
+            <Contacts/>
         </div>
     );
 }
