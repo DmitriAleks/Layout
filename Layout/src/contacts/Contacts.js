@@ -8,7 +8,11 @@ const Contacts = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
 
                     <span>Контакты</span>
-                    <div className={style.addresses}></div>
+                    <form className={style.addresses}>
+                        <input type="text"/>
+                        <input type="text"/>
+                        <textarea></textarea>
+                    </form>
                     <span>Отправить</span>
 
 
