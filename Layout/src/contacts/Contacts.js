@@ -6,9 +6,12 @@ const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <span>Контакты</span>
-                <div className={style.addresses}></div>
-                <span>Отправить</span>
+
+                    <span>Контакты</span>
+                    <div className={style.addresses}></div>
+                    <span>Отправить</span>
+
+
             </div>
         </div>
     );

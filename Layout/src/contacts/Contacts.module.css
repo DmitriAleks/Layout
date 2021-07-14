@@ -3,8 +3,9 @@
     background-color: #b8765b;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
+
 .contactsContainer {
     background-color: #e2b5b5;
     height: 50%;
@@ -12,6 +13,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
 }
+
 .addresses {
     background-color: azure;
     height: 60%;
