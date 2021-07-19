@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={style.footer}>
-                <span>Иван Иванов</span>
+                <span className={style.text}>Иван Иванов</span>
                 <div className={style.barcode}>
                     <div className={style.b}></div>
                     <div></div>
@@ -16,7 +16,7 @@ const Footer = () => {
                     <div></div>
                     <div className={style.b}></div>
                 </div>
-                <span>Все права защищены</span>
+                <span className={style.textTwo}>Все права защищены</span>
             </div>
         </div>
     );

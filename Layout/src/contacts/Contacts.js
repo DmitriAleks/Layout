@@ -7,13 +7,13 @@ const Contacts = () => {
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
 
-                    <span>Контакты</span>
+                    <span className={style.text}>Контакты</span>
                     <form className={style.addresses}>
                         <input type="text"/>
                         <input type="text"/>
                         <textarea></textarea>
                     </form>
-                    <span>Отправить</span>
+                    <span className={style.textTwo}>Отправить</span>
 
 
             </div>
