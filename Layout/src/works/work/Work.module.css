@@ -10,6 +10,14 @@
     height: 300px;
     widht:300px;
 }
-.workBlock span{
-    background-color: #9dbcf3;
+
+.spans {
+    background-color: #5a8ce0;
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+.spans span {
+    background-color: #eaa7a7;
 }

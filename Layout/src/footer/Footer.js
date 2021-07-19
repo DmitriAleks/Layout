@@ -7,7 +7,15 @@ const Footer = () => {
         <div className={style.footerBlock}>
             <div className={style.footer}>
                 <span>Иван Иванов</span>
-                <div className={style.barcode}></div>
+                <div className={style.barcode}>
+                    <div className={style.b}></div>
+                    <div></div>
+                    <div className={style.b}></div>
+                    <div></div>
+                    <div className={style.b}></div>
+                    <div></div>
+                    <div className={style.b}></div>
+                </div>
                 <span>Все права защищены</span>
             </div>
         </div>

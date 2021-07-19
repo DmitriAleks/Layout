@@ -19,5 +19,13 @@
     background-color: #559a51;
     width: 40%;
     height: 40%;
+    display: flex;
+    flex-direction: row;
 }
-
+.barcode div{
+    width: 45px;
+    height: 45px;
+}
+.b {
+    background-color: azure;
+}
