@@ -17,14 +17,17 @@
 }
 .barcode{
     background-color: #559a51;
-    width: 40%;
-    height: 40%;
+    width: 200px;
+    height: 45px;;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 .barcode div{
     width: 45px;
     height: 45px;
+    display: flex;
+
+
 }
 .b {
     background-color: azure;

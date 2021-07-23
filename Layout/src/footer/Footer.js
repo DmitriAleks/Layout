@@ -9,11 +9,11 @@ const Footer = () => {
                 <span className={style.text}>Иван Иванов</span>
                 <div className={style.barcode}>
                     <div className={style.b}></div>
-                    <div></div>
+
                     <div className={style.b}></div>
-                    <div></div>
+
                     <div className={style.b}></div>
-                    <div></div>
+
                     <div className={style.b}></div>
                 </div>
                 <span className={style.textTwo}>Все права защищены</span>
