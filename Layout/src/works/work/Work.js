@@ -3,14 +3,13 @@ import style from './Work.module.css'
 
 const Work = () => {
     return (
-        <div >
+        <div className={style.startDiv}>
             <div className={style.workBlock}>
-                <img src='' className={style.images}/>
+                <a className={style.button} href="">Посмотреть</a>
             </div>
-            <div className={style.spans}>
-                <span>Название проекта</span>
+                <div>Название проекта</div>
                 <span>Краткое описание</span>
-            </div>
+
 
 
         </div>
