@@ -4,8 +4,8 @@ import Header from './header/Headers'
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Works from "./works/Works";
-import FrilansOption from "./frilansOption/FrilansOption";
-import Contacts from "./contacts/Contacts";
+import FreelanceOption from "./frilansOption/FreelanceOption";
+import Contact from "./contacts/Contact";
 import Footer from "./footer/Footer";
 
 
@@ -16,8 +16,8 @@ function App() {
             <Main/>
             <Skills/>
             <Works />
-            <FrilansOption/>
-            <Contacts/>
+            <FreelanceOption/>
+            <Contact/>
             <Footer/>
         </div>
     );

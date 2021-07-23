@@ -15,26 +15,23 @@
     align-items: center;
 
 }
-.barcode{
+.social{
     background-color: #559a51;
     width: 200px;
     height: 45px;;
     display: flex;
     justify-content: space-between;
 }
-.barcode div{
+.social li{
     width: 45px;
     height: 45px;
     display: flex;
-
-
-}
-.b {
     background-color: azure;
 }
-.text{
+
+.name{
     background-color: #42f374;
 }
-.textTwo{
+.textEnd{
     background-color: #87aa3c;
 }

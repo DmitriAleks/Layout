@@ -1,18 +1,16 @@
-.frilansOption {
+.freelanceOption {
     min-height: 20vh;
     background-color: #c6b46f;
 }
-.frilansOptionContainer {
-    align-items: center;
+.freelanceOptionContainer {
     flex-direction: column;
-    justify-content: space-between;
 }
 .hire {
     background-color: #6bbd6c;
     height: 20%;
     width: 30%;
     text-align: center;
-    vertical-align: center;
-
-
+}
+.title {
+    background-color: #317b2f;
 }

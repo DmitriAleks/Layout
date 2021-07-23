@@ -1,4 +1,4 @@
-.workBlock {
+.imageContainer {
     background-color: darkkhaki;
     display: flex;
     flex-direction: column;
@@ -8,16 +8,13 @@
     justify-content: center;
     width: 285px;
 }
+.nameProject{
+    background-color: red;
+}
+.description {
+    background-color: blue;
+}
 
-.spans {
-    background-color: #5a8ce0;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.spans span {
-    background-color: #eaa7a7;
-}
 .button {
     text-decoration: none;
     user-select: none;

@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-.addresses {
+.message {
     background-color: azure;
     height: 60%;
     width: 70%;
@@ -22,15 +22,15 @@
     flex-direction: column;
 
 }
-.addresses input{
-    width: 100%;
+.message input{
+    width: 99%;
     height: 10%;
 }
-.addresses textarea{
-    width: 100%;
+.message textarea{
+    width: 99%;
     height: 60%;
 }
-.text{
+.title{
     background-color: antiquewhite;
 }
 .textTwo{

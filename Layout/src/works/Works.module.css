@@ -7,6 +7,9 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+.title {
+    background-color: #56cba1;
+}
 .works {
     border: 1px solid;
     width: 100%;
