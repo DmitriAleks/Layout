@@ -1,11 +1,14 @@
 .mainBlock {
 min-height: 100vh;
-    background-color: silver;
+    background-image: url('../common/Images/backrgroun-section/mark-slider-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
 }
 
 .text {
     width: 300px;
     background-color: white ;
+    font-family: 'Gluten', cursive;
 }
 .photo {
 width: 300px;

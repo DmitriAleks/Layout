@@ -1,19 +1,25 @@
 .worksBlock {
-    min-height: 100vh;
-    background-color: #559a51;
+    background-color: #101010;
 }
+
 .worksContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
 }
-.title {
-    background-color: #56cba1;
-}
+
+
 .works {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 717px) {
+    .works {
+        justify-content: center;
+    }
 }

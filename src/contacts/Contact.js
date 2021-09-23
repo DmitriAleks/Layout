@@ -11,8 +11,9 @@ const Contact = () => {
                         <input type="text"/>
                         <input type="text"/>
                         <textarea></textarea>
+
                     </form>
-                    <span className={style.textTwo}>send message</span>
+                <button type={'submit'} className={style.textTwo}>send message</button>
             </div>
         </div>
     );

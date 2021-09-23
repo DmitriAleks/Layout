@@ -1,0 +1,26 @@
+.title {
+    background-color: #56cba1;
+    margin: 0 0 30px;
+    position: relative;
+    font-family: 'Gluten', cursive;;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.title h2 {
+    margin: 0;
+
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    background: blue;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
