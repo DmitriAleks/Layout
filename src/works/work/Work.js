@@ -1,14 +1,17 @@
 import React from 'react';
 import style from './Work.module.css'
 
-const Work = () => {
+const Work = (props) => {
     return (
-        <div >
+        <div className={style.a}>
             <div className={style.imageContainer} >
                 <a className={style.button} href="">Посмотреть</a>
             </div >
-                <span className={style.nameProject}>Project name </span>
-                <div className={style.description}>Description</div>
+            <div className={style.projectInfo}>
+                <h3 className={style.nameProject}>{props.name}</h3>
+                <span className={style.description}>{props.description}</span>
+            </div>
+
         </div>
     );
 }

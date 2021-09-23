@@ -1,3 +1,7 @@
+.a {
+    width: 285px;
+    background-color: #252527;
+}
 .imageContainer {
     background-color: darkkhaki;
     display: flex;
@@ -6,13 +10,7 @@
     text-align: center;
     height: 300px;
     justify-content: center;
-    width:  285px;
-}
-.nameProject{
-    background-color: red;
-}
-.description {
-    background-color: blue;
+    width: 285px;
 }
 
 .button {
@@ -20,4 +18,29 @@
     user-select: none;
     background-color: #9a8c8c;
     padding: 10px 25px;
+}
+
+.nameProject {
+    font-size: 16px;
+    background-color: red;
+    margin: 0 0 5px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: white;
+}
+
+.description {
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    width: inherit;
+
+}
+
+.projectInfo {
+    padding: 25px 20px;
+
 }

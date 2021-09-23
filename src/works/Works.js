@@ -11,8 +11,8 @@ const Works = () => {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                <Title title={'Projects'}/>
                 <div className={style.works}>
-                    <Work/>
-                    <Work/>
+                    <Work name={'Network'}description={'the best network in the world'}/>
+                    <Work name={'Todo list'} description={'the best todo list in the world the best todo list in the world the best todo list in the world the best todo list in the world'}/>
                 </div>
             </div>
 
