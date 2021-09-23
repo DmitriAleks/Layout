@@ -4,7 +4,7 @@ import style from './Work.module.css'
 const Work = (props) => {
     return (
         <div className={style.a}>
-            <div className={style.imageContainer} >
+            <div className={style.image} style={props.style} >
                 <a className={style.button} href="">Посмотреть</a>
             </div >
             <div className={style.projectInfo}>

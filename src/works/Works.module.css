@@ -19,7 +19,7 @@
     align-items: start;
 }
 
-@media screen and (max-width: 717px) {
+@media screen and (max-width: 1129px) {
     .works {
         justify-content: center;
     }
