@@ -7,8 +7,7 @@ min-height: 100vh;
 }
 
 .text {
-    width: 300px;
-    background-color: white ;
+    color: #fff;
     font-family: 'Martel', serif;
 }
 .photo {

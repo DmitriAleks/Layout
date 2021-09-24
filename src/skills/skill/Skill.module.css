@@ -1,12 +1,13 @@
 .skill {
     width: 250px;
-    background-color: #d3666c;
+    /*background-color: #d3666c;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 5px;
     box-sizing: border-box;
+    background:linear-gradient(-45deg, transparent 15px, #d3666c 0);
 }
 
 
