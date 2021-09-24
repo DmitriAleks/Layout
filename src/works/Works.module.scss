@@ -1,5 +1,6 @@
+@import '../common/styles/sass/variables';
 .worksBlock {
-  background-color: #101010;
+  background-color: $bgColor;
 
   .worksContainer {
     align-items: center;
