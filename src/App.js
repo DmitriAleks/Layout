@@ -14,7 +14,6 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
-            <Works />
             <Skills/>
             <Works />
             <FreelanceOption/>
@@ -23,5 +22,5 @@ function App() {
         </div>
     );
 }
-
+//test
 export default App;
