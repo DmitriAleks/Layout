@@ -2,7 +2,8 @@
 min-height: 100vh;
     background-image: url('../common/Images/backrgroun-section/mark-slider-background.jpg');
     background-repeat: no-repeat;
-    background-position: 50% 20%;
+    background-position: 50% 0;
+    background-size: cover;
 
 }
 
