@@ -5,6 +5,9 @@
   width: 450px;
   background-color: $bgSecondColor;
   margin-bottom: 30px;
+  border: 2px solid #b62e2e; /* Ширина и цвет границ*/
+  border-radius: 10px; /* Радиус границ*/
+  box-shadow: 0 0 55px #A9A9A9; /* Размер и цвет тени блока*/
 
   .image {
     background-color: #cae1ff;

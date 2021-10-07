@@ -3,16 +3,35 @@ import style from './Skills.module.css'
 import styleContainer from './../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
-import reactIcon from '../assets/image/reactIcon.png'
+import skillReact from '../../src/assets/image/skillReact.png'
+import skillJs from'../assets/image/skillJS.png'
+import skillTS from '../assets/image/skillTS.png'
+import skillRedux from '../assets/image/skillRedux.png'
+import skillSass from '../assets/image/skillSass.png'
 
 
 const Skills = () => {
 
-        const test = {
-            color: 'blue',
-            backgroundImage: `url(${reactIcon})`,
-        }
-
+    const reactIcon = {
+        color: 'blue',
+        backgroundImage: `url(${skillReact})`,
+    }
+    const sassIcon = {
+        color: 'blue',
+        backgroundImage: `url(${skillSass})`,
+    }
+    const jsIcon = {
+        color: 'blue',
+        backgroundImage: `url(${skillJs})`,
+    }
+    const tsIcon = {
+        color: 'blue',
+        backgroundImage: `url(${skillTS})`,
+    }
+    const reduxIcon = {
+        color: 'blue',
+        backgroundImage: `url(${skillRedux})`,
+    }
 
 
 
@@ -21,9 +40,17 @@ const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'JS'} description={'Lorem ipsum dolor sit amet,'}/>
-                    <Skill title={'CSS'} description={'sed do eiusmod tempor incididunt ut labore et dolore '}/>
-                    <Skill title={'React'}  description={' consectetur adipisicing elit, magna aliqua Ut enim' } style={test}/>
+                    <Skill title={'JavaScript'} description={'Lorem ipsum dolor sit amet,'}  style={jsIcon}/>
+                    <Skill title={'TypeScript'} description={'sed do eiusmod tempor incididunt ut labore et dolore '}  style={tsIcon}/>
+                    <Skill title={'React'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
+                           style={reactIcon}/>
+                    <Skill title={'Redux'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
+                           style={reduxIcon}/>
+                    <Skill title={'Redux/Redux-Toolkit'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
+                           style={reactIcon}/>
+                    <Skill title={'SCSS/SAAS'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
+                           style={sassIcon}/>
+
                 </div>
             </div>
         </div>

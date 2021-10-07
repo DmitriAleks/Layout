@@ -23,6 +23,8 @@ const Works = () => {
                     <Work name={'Network'}description={'the best network in the world'} style={social}/>
                     <Work name={'Todo list'} description={'the best todo list in the world the best todo list in the world the best todo list in the world the best todo list in the world'}
                     style={todoList}/>
+                    <Work name={'Network'}description={'the best network in the world'} style={social}/>
+                    <Work name={'Network'}description={'the best network in the world'} style={social}/>
                 </div>
             </div>
 
