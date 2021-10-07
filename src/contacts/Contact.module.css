@@ -1,13 +1,16 @@
 .contactsBlock {
     height: 100vh;
-    background-color: #b8765b;
+    background-color: #cf3841;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .contactsContainer {
-    background-color: #e2b5b5;
+    background-image: url('../common/Images/backrgroun-section/contactW.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
     display: flex;
     flex-direction: column;
 }

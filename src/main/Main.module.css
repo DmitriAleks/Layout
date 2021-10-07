@@ -1,6 +1,6 @@
 .mainBlock {
 min-height: 100vh;
-    background-image: url('../common/Images/backrgroun-section/mark-slider-background.jpg');
+    background-image: url('../common/Images/backrgroun-section/mark-slider.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -14,5 +14,8 @@ min-height: 100vh;
 .photo {
 width: 300px;
     height: 400px;
-    background-color: white;
+    background-image: url('../common/Images/backrgroun-section/test.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
 }

@@ -1,6 +1,9 @@
 @import '../common/styles/sass/variables';
 .worksBlock {
-  background-color: $bgColor;
+  background-image: url('../common/Images/backrgroun-section/444.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
 
   .worksContainer {
     align-items: center;

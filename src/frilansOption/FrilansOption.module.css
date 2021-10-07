@@ -1,6 +1,9 @@
 .freelanceOption {
     min-height: 20vh;
-    background-color: #c6b46f;
+    background-image: url('../common/Images/backrgroun-section/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
 }
 .freelanceOptionContainer {
     flex-direction: column;
