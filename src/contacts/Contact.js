@@ -9,9 +9,9 @@ const Contact = () => {
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contact'}/>
                     <form className={style.message}>
-                        <input type="text"/>
-                        <input type="text"/>
-                        <textarea></textarea>
+                        <input type="text" placeholder={'Name*'}/>
+                        <input type="text" placeholder={'Email*'}/>
+                        <textarea placeholder={'Message*'}></textarea>
 
                     </form>
                 <button type={'submit'} className={style.textTwo}>send message</button>
