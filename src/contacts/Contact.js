@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contact.module.css'
+import style from './Contact.module.scss'
 import styleContainer from './../common/styles/Container.module.css'
 import Title from "../common/components/title/Title";
 import Button from "../common/components/button/button";
@@ -17,7 +17,6 @@ const Contact = () => {
 
                     </form>
                 <Button name={'send message'}/>
-                {/*<button type={'submit'} className={style.textTwo}>send message</button>*/}
             </div>
         </div>
     );

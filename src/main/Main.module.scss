@@ -1,0 +1,22 @@
+.mainBlock {
+min-height: 100vh;
+    background-image: url('../common/Images/backrgroun-section/543.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    .text {
+        color: #fff;
+        font-family: 'Martel', serif;
+    }
+    .photo {
+        width: 300px;
+        height: 400px;
+        background-image: url('../common/Images/backrgroun-section/test.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+
+}
+
+
