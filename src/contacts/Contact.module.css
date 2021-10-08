@@ -24,6 +24,7 @@
     justify-content: space-between;
     flex-direction: column;
     background-color: #cf3841;
+    box-shadow: 0 0 5px;
 }
 
 .message input {

@@ -2,6 +2,8 @@ import React from 'react';
 import style from './Contact.module.css'
 import styleContainer from './../common/styles/Container.module.css'
 import Title from "../common/components/title/Title";
+import Button from "../common/components/button/button";
+
 
 const Contact = () => {
     return (
@@ -14,7 +16,8 @@ const Contact = () => {
                         <textarea placeholder={'Message*'}></textarea>
 
                     </form>
-                <button type={'submit'} className={style.textTwo}>send message</button>
+                <Button name={'send message'}/>
+                {/*<button type={'submit'} className={style.textTwo}>send message</button>*/}
             </div>
         </div>
     );
