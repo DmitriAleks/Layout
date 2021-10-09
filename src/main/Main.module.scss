@@ -68,12 +68,18 @@
         left: 15px;
         top: -15px;
         z-index: -1;
+        @media screen and (max-width: 650px) {
+          height: 110%;
+          width: 45%;
+        }
       }
     }
 
 
   }
-
+@media screen and (max-width: 650px) {
+  display: block;
+}
 
 }
 
