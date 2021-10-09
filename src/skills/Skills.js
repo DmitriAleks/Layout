@@ -4,10 +4,11 @@ import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
 import skillReact from '../../src/assets/image/skillReact.png'
-import skillJs from'../assets/image/skillJS.png'
+import skillJs from '../assets/image/skillJS.png'
 import skillTS from '../assets/image/skillTS.png'
 import skillRedux from '../assets/image/skillRedux.png'
 import skillSass from '../assets/image/skillSass.png'
+import Bounce from 'react-reveal/Bounce';
 
 
 const Skills = () => {
@@ -34,25 +35,35 @@ const Skills = () => {
     }
 
 
-
     return (
-        <div className={style.skillsBlock}>
+        <div id='skills' className={style.skillsBlock}>
+
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'JavaScript'} description={'Lorem ipsum dolor sit amet,'}  style={jsIcon}/>
-                    <Skill title={'TypeScript'} description={'sed do eiusmod tempor incididunt ut labore et dolore '}  style={tsIcon}/>
-                    <Skill title={'React'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
-                           style={reactIcon}/>
-                    <Skill title={'Redux'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
-                           style={reduxIcon}/>
-                    <Skill title={'Redux/Redux-Toolkit'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
-                           style={reactIcon}/>
-                    <Skill title={'SCSS/SAAS'} description={' consectetur adipisicing elit, magna aliqua Ut enim'}
-                           style={sassIcon}/>
-
+                    <Bounce left>
+                        <Skill title={'JavaScript'} description={'4/5'} style={jsIcon}/>
+                    </Bounce>
+                    <Bounce top>
+                        <Skill title={'TypeScript'} description={'4/5'} style={tsIcon}/>
+                    </Bounce>
+                    <Bounce right>
+                        <Skill title={'React'} description={'4/5'} style={reactIcon}/>
+                    </Bounce>
+                    <Bounce left>
+                        <Skill title={'Redux'} description={'4/5'}
+                               style={reduxIcon}/>
+                    </Bounce>
+                    <Bounce bottom>
+                        <Skill title={'Redux/Redux-Toolkit'}
+                               description={'4/5'} style={reactIcon}/>
+                    </Bounce>
+                    <Bounce right>
+                        <Skill title={'SCSS/SAAS'} description={'4/5'} style={sassIcon}/>
+                    </Bounce>
                 </div>
             </div>
+
         </div>
     );
 }

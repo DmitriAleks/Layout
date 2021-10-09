@@ -10,6 +10,10 @@
   background-size: cover;
 
   .text {
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
     font-family: 'Martel', serif;
     span {
@@ -36,11 +40,12 @@
           }
         }
       }
+      &:nth-child(3)  {
+        @include text(60px, 1.2);
+      }
     }
 
-    h1 {
-      @include text(60px, 1.2);
-    }
+
   }
 
   .photo {

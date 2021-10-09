@@ -8,7 +8,7 @@ import TbuttonTest from "../common/components/TbuttonTest";
 
 const Contact = () => {
     return (
-        <div className={style.contactsBlock}>
+        <div id='contact' className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contact'}/>
                     <form className={style.message}>

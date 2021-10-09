@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './Work.module.scss'
+import style from './Project.module.scss'
 
-const Work = (props) => {
+const Project = (props) => {
     return (
         <div className={style.a}>
             <div className={style.image} style={props.style} >
@@ -16,4 +16,4 @@ const Work = (props) => {
     );
 }
 
-export default Work;
+export default Project;
