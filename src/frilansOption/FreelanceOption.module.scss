@@ -4,16 +4,8 @@
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
+    .freelanceOptionContainer {
+        flex-direction: column;
+    }
 }
-.freelanceOptionContainer {
-    flex-direction: column;
-}
-.hire {
-    background-color: #6bbd6c;
-    height: 20%;
-    width: 30%;
-    text-align: center;
-}
-.title {
-    background-color: #317b2f;
-}
+
