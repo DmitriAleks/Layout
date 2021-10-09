@@ -38,7 +38,8 @@
   .burgerBtn {
     width: 30px;
     height: 30px;
-    background-color: $primaryColor;
+    border-radius: 5px;
+    background-image: url('../../assets/image/navMenu.png');
     position: absolute;
     top: 24px;
     right: 20px;

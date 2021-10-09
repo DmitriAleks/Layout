@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Skill.module.scss'
+import Diagramma from "../../common/components/Diagramma";
 
 const Skill = (props) => {
+    const [status, setStatus] = useState(true)
+
+    const Test = () => {
+        setStatus(!status)
+    }
     return (
-        <div className={style.skill}>
+        <div onClick={Test} className={style.skill}>
+
             <div className={style.icon} style={props.style}></div>
             <h3>{props.title}</h3>
             <span>{props.description}</span>
@@ -11,3 +18,5 @@ const Skill = (props) => {
     );
 }
 export default Skill;
+
+

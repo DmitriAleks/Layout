@@ -44,14 +44,10 @@
         @include text(60px, 1.2);
       }
     }
-
-
   }
-
   .photo {
     position: relative;
     z-index: 1;
-
     .image {
       width: 300px;
       height: 400px;
@@ -74,8 +70,6 @@
         }
       }
     }
-
-
   }
 @media screen and (max-width: 650px) {
   display: block;

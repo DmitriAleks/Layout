@@ -5,12 +5,15 @@ import Title from "../common/components/title/Title";
 import Button from "../common/components/button/button";
 import TbuttonTest from "../common/components/TbuttonTest";
 
+import Slide from 'react-reveal/Slide';
+
 
 const Contact = () => {
     return (
         <div id='contact' className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contact'}/>
+                <Slide right>
                     <form className={style.message}>
                         <input type="text" placeholder={'Name*'}/>
                         <input type="text" placeholder={'Email*'}/>
@@ -18,7 +21,7 @@ const Contact = () => {
                         {/*<Button name={'send message'}/>*/}
                         <TbuttonTest name={'button'}/>
                     </form>
-
+                </Slide>
 
             </div>
         </div>
