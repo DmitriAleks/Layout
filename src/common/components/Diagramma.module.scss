@@ -50,18 +50,16 @@
     content: '';
     position: absolute;
     z-index: 2;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
     clip: rect(0 100px 200px 0);
     -webkit-transform: rotate(150deg);
     transform: rotate(150deg);
     background: $bgColor;
-
   }
-
 }
 
 

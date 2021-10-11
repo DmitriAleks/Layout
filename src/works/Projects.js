@@ -20,10 +20,9 @@ const Projects = () => {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                <Title title={'Projects'}/>
                 <div className={style.works}>
-                    <Project name={'Network'} description={'the best network in the world'} style={social}/>
-                    <Project name={'Todo list'} description={'the best todo list in the world the best todo list in the world the best todo list in the world the best todo list in the world'}
+                    <Project name={'Network'} description={`Don't lose contact with loved ones. Use the social network.`} style={social}/>
+                    <Project name={'Todo list'} description={'Bad memory? Now this is not a problem, Todo list will help you.'}
                              style={todoList}/>
-                    <Project name={'Network'} description={'the best network in the world'} style={social}/>
                     <Project name={'Network'} description={'the best network in the world'} style={social}/>
                 </div>
             </div>

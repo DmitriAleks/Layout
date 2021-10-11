@@ -43,21 +43,12 @@ const Skills = () => {
                 <Title title={'Skills'}/>
                 <Slide left>
                 <div className={style.skills}>
-
-                    <Skill title={'JavaScript'} description={'4/5'} style={jsIcon}/>
-
-                    <Skill title={'TypeScript'} description={'4/5'} style={tsIcon}/>
-
-                    <Skill title={'React'} description={'4/5'} style={reactIcon}/>
-
-                    <Skill title={'Redux'} description={'4/5'}
-                           style={reduxIcon}/>
-
-                    <Skill title={'Redux/Redux-Toolkit'}
-                           description={'4/5'} style={reactIcon}/>
-
-                    <Skill title={'SCSS/SAAS'} description={'4/5'} style={sassIcon}/>
-
+                    <Skill title={'JavaScript'} description={'skill 4/5'} style={jsIcon}/>
+                    <Skill title={'TypeScript'} description={'skill 4/5'} style={tsIcon}/>
+                    <Skill title={'React'} description={'skill 4/5'} style={reactIcon}/>
+                    <Skill title={'Redux'} description={'skill 4/5'} style={reduxIcon}/>
+                    <Skill title={'Redux/Redux-Toolkit'} description={'skill 4/5'} style={reactIcon}/>
+                    <Skill title={'SCSS/SAAS'} description={'skill 4/5'} style={sassIcon}/>
                 </div>
                 </Slide>
             </div>

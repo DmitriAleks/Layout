@@ -3,12 +3,15 @@ import style from './Header.module.scss'
 import Nav from "./nav/Nav";
 import BurgerNav from "./burgerNav/BurgerNav";
 
-const Header = () =>  {
+const Header = () => {
     return (
-        <div className={style.header}>
-            <Nav/>
-            <BurgerNav/>
-        </div>
+        <header className={style.header}>
+            <div className={style.fixed}>
+                <Nav/>
+                <BurgerNav/>
+            </div>
+        </header>
+
     );
 }
 
