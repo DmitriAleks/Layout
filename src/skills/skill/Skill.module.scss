@@ -1,44 +1,44 @@
+@import '../../common/styles/sass/variables';
+
 .skill {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: #cf3841;
-    border: 2px solid #b62e2e;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #cf3841;
+  border: 2px solid #b62e2e;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #A9A9A9;
+  margin: 0 auto;
+  margin-block: inherit;
+  transition-duration: 0.5s;
+  &:hover {
+    transform: translate3d(20px, 20px, -50px);
+  }
+  &:hover .icon {
+    transform: rotate(360deg);
+  }
+  .icon {
     border-radius: 10px;
-    box-shadow: 0 0 15px #A9A9A9;
-    margin: 0 auto;
-    margin-block: inherit;
-    transition-duration: 0.5s;
-    &:hover {
-        transform: translate3d(20px,20px,-50px);
-    }
-
-    &:hover .icon {
-        transform: rotate(360deg);
-
-    }
-    .icon {
-        border-radius: 10px;
-        height: 60px;
-        width: 60px;
-        transition-duration: 1s;
-    }
-
-}
-
-
-
-
-.skill h3 {
+    height: 60px;
+    width: 60px;
+    transition-duration: 1s;
+  }
+  h3 {
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 5px;
+    color: $textColor;
+  }
+  span {
+    line-height: 1.2;
+    color: $textColor;
+  }
 }
 
-.description:hover {
 
-}
+

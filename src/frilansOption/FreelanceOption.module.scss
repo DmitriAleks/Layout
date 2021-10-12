@@ -1,3 +1,4 @@
+@import "../common/styles/sass/mixins";
 .freelanceOption {
     min-height: 20vh;
     background-image: url('../common/Images/backrgroun-section/contact.jpg');
@@ -5,6 +6,7 @@
     background-position: 50% 0;
     background-size: cover;
     .freelanceOptionContainer {
+        @include flex(row, space-around, center, no-wrap);
         flex-direction: column;
     }
 }

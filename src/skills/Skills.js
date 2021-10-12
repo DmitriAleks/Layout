@@ -1,55 +1,47 @@
 import React from 'react';
-import style from './Skills.module.css'
-import styleContainer from '../common/styles/Container.module.scss'
+import style from './Skills.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/components/title/Title";
-import skillReact from '../../src/assets/image/skillReact.png'
-import skillJs from '../assets/image/skillJS.png'
-import skillTS from '../assets/image/skillTS.png'
-import skillRedux from '../assets/image/skillRedux.png'
-import skillSass from '../assets/image/skillSass.png'
+import skillFoundation from '../../src/assets/image/icons8-web-browser-60.png'
+import skillRocket from '../assets/image/icons8-ракета-60.png'
+import skillTest from '../assets/image/icons8-checklist-60.png'
+import skillDesign from '../assets/image/icons8-pencil-case-60 (1).png'
 import Slide from 'react-reveal/Slide';
-import Diagramma from "../common/components/Diagramma";
 
 
 const Skills = () => {
 
-    const reactIcon = {
+    const foundation = {
         color: 'blue',
-        backgroundImage: `url(${skillReact})`,
+        backgroundImage: `url(${skillFoundation})`,
     }
-    const sassIcon = {
+
+    const rocket = {
         color: 'blue',
-        backgroundImage: `url(${skillSass})`,
+        backgroundImage: `url(${skillRocket})`,
     }
-    const jsIcon = {
+    const test = {
         color: 'blue',
-        backgroundImage: `url(${skillJs})`,
+        backgroundImage: `url(${skillTest})`,
     }
-    const tsIcon = {
+    const design = {
         color: 'blue',
-        backgroundImage: `url(${skillTS})`,
-    }
-    const reduxIcon = {
-        color: 'blue',
-        backgroundImage: `url(${skillRedux})`,
+        backgroundImage: `url(${skillDesign})`,
     }
 
 
     return (
         <div id='skills' className={style.skillsBlock}>
 
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.skillsContainer}>
                 <Title title={'Skills'}/>
                 <Slide left>
-                <div className={style.skills}>
-                    <Skill title={'JavaScript'} description={'skill 4/5'} style={jsIcon}/>
-                    <Skill title={'TypeScript'} description={'skill 4/5'} style={tsIcon}/>
-                    <Skill title={'React'} description={'skill 4/5'} style={reactIcon}/>
-                    <Skill title={'Redux'} description={'skill 4/5'} style={reduxIcon}/>
-                    <Skill title={'Redux/Redux-Toolkit'} description={'skill 4/5'} style={reactIcon}/>
-                    <Skill title={'SCSS/SAAS'} description={'skill 4/5'} style={sassIcon}/>
-                </div>
+                    <div className={style.skills}>
+                        <Skill title={'Foundations'} description={'Javascript, Typescript, HTML5,CSS3'} style={foundation}/>
+                        <Skill title={'Development'} description={'React, Redux, Axios, Redux-Toolkit'} style={rocket}/>
+                        <Skill title={'Testing'} description={'Unit Tests, SnapShot, Storybook'} style={test}/>
+                        <Skill title={'Design'} description={'Material UI, Ant-Design '} style={design}/>
+                    </div>
                 </Slide>
             </div>
 

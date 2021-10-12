@@ -1,3 +1,4 @@
+@import "../common/styles/sass/mixins";
 .contactsBlock {
     height: 100vh;
     background-color: #cf3841;
@@ -5,12 +6,14 @@
     justify-content: center;
     align-items: center;
     .contactsContainer {
+        @include flex(column, space-around, center, no-wrap);
         background-image: url('../common/Images/backrgroun-section/contactW.jpg');
         background-repeat: no-repeat;
         background-position: 50% 0;
         background-size: contain;
-        display: flex;
-        flex-direction: column;
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
         .message {
             height: 60%;
             width: 70%;

@@ -1,0 +1,28 @@
+@import "../common/styles/sass/mixins";
+.skillsBlock {
+  min-height: 100vh;
+  background-image: url('../common/Images/backrgroun-section/23.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  .skillsContainer {
+    @include flex(row, space-around, center, no-wrap);
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    .skills {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (max-width: 629px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+
+
