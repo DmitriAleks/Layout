@@ -1,37 +1,38 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 .footerBlock {
-    height: 30vh;
-    background-color: #cf3841;
+  height: 30vh;
+  background-color: $secondPrimaryColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footer {
+    background-color: $secondPrimaryColor;
+    width: 70%;
+    height: 60%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    .footer{
-        background-color: #cf3841;
-        width: 70%;
-        height: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        .name{
 
-        }
-        .social{
-            background-color: #cf3841;
-            width: 70%;
-            height: 45px;;
-            display: flex;
-            justify-content: space-between;
-            a{
-                width: 45px;
-                height: 45px;
-                display: flex;
-                background-color: azure;
-            }
-        }
-        .textEnd{
+    .social {
+      background-color: $secondPrimaryColor;
+      width: 70%;
+      height: 45px;;
+      display: flex;
+      justify-content: space-between;
 
-        }
+      a {
+        width: 45px;
+        height: 45px;
+      }
     }
+    span {
+      @include text(18px, 1.2);
+        line-height: 1.2;
+    }
+  }
 }
 
 

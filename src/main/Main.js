@@ -22,8 +22,6 @@ const Main = () => {
                     </div>
                 </Flip>
             </Tilt>
-
-
         </div>
     );
 }

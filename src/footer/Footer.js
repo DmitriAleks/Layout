@@ -15,7 +15,6 @@ const Footer = () => {
     const linkedinIcon = {
         backgroundImage: `url(${footerLinkedin})`
     }
-
     const codeIcon = {
         backgroundImage: `url(${footerCode})`
     }
@@ -24,7 +23,7 @@ const Footer = () => {
     return (
             <div className={style.footerBlock}>
                 <div className={style.footer}>
-                    <span className={style.name}>Dmitri Alekseonok</span>
+                    <span >Dmitri Alekseonok</span>
                     <div className={style.social}>
                         <a href={'https://t.me/DmitriAlekseenok'} style={telegramI}></a>
                         <a href={'https://github.com/DmitriAleks?tab=repositories'} style={gitIcon}></a>

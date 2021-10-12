@@ -1,7 +1,8 @@
 @import "../common/styles/sass/mixins";
+@import "../common/styles/sass/variables";
 .contactsBlock {
     height: 100vh;
-    background-color: #cf3841;
+    background-color: $secondPrimaryColor;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             flex-direction: column;
-            background-color: #cf3841;
+            background-color: $secondPrimaryColor;
             box-shadow: 0 0 5px;
             align-items: center;
             @media screen and (max-width: 480px) {

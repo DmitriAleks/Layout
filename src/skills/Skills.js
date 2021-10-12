@@ -15,7 +15,6 @@ const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${skillFoundation})`,
     }
-
     const rocket = {
         color: 'blue',
         backgroundImage: `url(${skillRocket})`,
@@ -32,7 +31,6 @@ const Skills = () => {
 
     return (
         <div id='skills' className={style.skillsBlock}>
-
             <div className={style.skillsContainer}>
                 <Title title={'Skills'}/>
                 <Slide left>
@@ -44,7 +42,6 @@ const Skills = () => {
                     </div>
                 </Slide>
             </div>
-
         </div>
     );
 }

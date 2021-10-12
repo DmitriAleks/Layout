@@ -71,7 +71,7 @@
         position: absolute;
         height: 110%;
         width: 105%;
-        border: 5px solid #ef4e51;
+        border: 5px solid $primaryColor;
         left: 15px;
         top: -15px;
         z-index: -1;
@@ -85,7 +85,6 @@
       }
     }
   }
-
   @media screen and (max-width: 650px) {
     display: block;
   }
