@@ -9,7 +9,7 @@ const FreelanceOption = () => {
         <div className={style.freelanceOption}>
             <div className={`${styleContainer.container} ${style.freelanceOptionContainer}`}>
                <Title title={'I Am Available For Freelance'}/>
-                <Button name={'here me'}/>
+                <Button name={'here me'} />
             </div>
         </div>
     );

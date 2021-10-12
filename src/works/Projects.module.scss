@@ -1,4 +1,6 @@
 @import '../common/styles/sass/variables';
+@import "src/common/styles/sass/mixins";
+
 .worksBlock {
   background-image: url('../common/Images/backrgroun-section/444.jpg');
   background-repeat: no-repeat;
@@ -6,6 +8,7 @@
   background-size: cover;
 
   .worksContainer {
+    @include flex(row, space-around, center, no-wrap);
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;

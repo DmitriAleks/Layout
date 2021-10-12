@@ -10,7 +10,7 @@ const Main = () => {
         <div id='main' className={style.mainBlock}>
             <div className={style.text}>
                 <span>Hi There</span>
-                <span>I am Dmitri <span> Alekseonok</span> </span>
+                <span>I am Dmitri <span> Alekseonok</span></span>
                 <ReactTypingEffect
                     text={["Frontend Developer"]}
                 />
