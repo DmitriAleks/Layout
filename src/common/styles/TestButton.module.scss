@@ -15,18 +15,26 @@
   &::after {
     content: '';
     position: absolute;
+    border-radius: 5px;
     width: 50%;
     height: 10px;
-    background: $primaryColor;
+    background: #c3313b;
     bottom: 0;
     z-index: -1;
     transition: all 0.2s ease-in-out;
-    right: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
 
   &:hover {
     text-decoration: none;
     color: $textColor;
+    span {
+      &::after {
+        content: '\00bb';
+      }
+    }
     &::after {
       width: 100%;
       height: 100%;
@@ -35,4 +43,3 @@
   }
 
 }
-

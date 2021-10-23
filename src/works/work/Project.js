@@ -6,7 +6,7 @@ const Project = (props) => {
     return (
         <div className={style.a}>
             <div className={style.image} style={props.style} >
-                <a className={s.btn} href="">Посмотреть</a>
+                <a className={s.btn} href={props.link} target="_blank"> <span>view</span></a>
             </div >
             <div className={style.projectInfo}>
                 <h3 className={style.nameProject}>{props.name}</h3>
