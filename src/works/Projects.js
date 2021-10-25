@@ -24,9 +24,9 @@ const Projects = () => {
             <div className={style.worksContainer}>
                <Title title={'Projects'}/>
                 <div className={style.works}>
-                    <Project name={'Network'} link={'https://dmitrialeks.github.io/Countries'}
+                    <Project name={'Network'} link={'https://dmitrialeks.github.io/SocialNetwork'}
                              description={`Don't lose contact with loved ones. Use the social network.`} style={social}/>
-                    <Project name={'Todo list'} link={''}
+                    <Project name={'Todolist'} link={'https://dmitrialeks.github.io/Todolist'}
                              description={'Bad memory? Now this is not a problem, Todo list will help you.'}
                              style={todoList}/>
                     <Project name={'Countries'}  link={'https://dmitrialeks.github.io/Countries'}

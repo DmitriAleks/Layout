@@ -25,10 +25,10 @@ const Footer = () => {
                 <div className={style.footer}>
                     <span >Dmitri Alekseonok</span>
                     <div className={style.social}>
-                        <a href={'https://t.me/DmitriAlekseenok'} style={telegramI}></a>
-                        <a href={'https://github.com/DmitriAleks?tab=repositories'} style={gitIcon}></a>
-                        <a href={'https://www.linkedin.com/feed/'} style={linkedinIcon}></a>
-                        <a href={'https://www.codewars.com/users/DmitriAleks'} style={codeIcon}></a>
+                        <a href={'https://t.me/DmitriAlekseenok'}  target="_blank" style={telegramI}></a>
+                        <a href={'https://github.com/DmitriAleks?tab=repositories'}  target="_blank" style={gitIcon}></a>
+                        <a href={'https://www.linkedin.com/feed/'}  target="_blank" style={linkedinIcon}></a>
+                        <a href={'https://www.codewars.com/users/DmitriAleks'}  target="_blank" style={codeIcon}></a>
                     </div>
                     <span className={style.textEnd}>© 2021  All Rights Reserved.</span>
                 </div>
