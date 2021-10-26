@@ -4,8 +4,8 @@ import {Link} from "react-scroll";
 
 const Button = ({name, ...restProps}) => {
     return (
-        <div className={style.button}>
-            <button {...restProps}><Link to="contact">  {name} </Link></button>
+        <div>
+            <button {...restProps} className={style.button}><Link to="contact" className={style.link}>  {name} </Link></button>
         </div>
     )
 }
