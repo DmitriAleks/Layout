@@ -18,9 +18,15 @@
     width: 80%;
     margin: 0 auto;
 
+
+    
     .cont {
         height: 60%;
-        width: 70%;
+      width: 70%;
+
+      @media screen  and (max-width: 900px) {
+        width: 100%;
+      }
     }
 
   }

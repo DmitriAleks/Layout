@@ -8,6 +8,7 @@
   border-radius: 10px;
   box-shadow: 0 0 55px #A9A9A9;
   margin: 30px 30px;
+  overflow: hidden;
 
   .image {
     background-color: #cae1ff;
@@ -21,6 +22,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    border-radius: 5px;
 
     &::before {
       position: absolute;
@@ -31,6 +33,7 @@
       right: 0;
       left: 0;
       opacity: 0.4;
+      border-radius: 5px;
     }
 
     .button {
